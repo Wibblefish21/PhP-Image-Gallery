@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/*
+#d2efec
+#ffe2e2
+
+*/
+
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: #f7dada;
+}
+
+header {
+    background: #222333;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .accountWrapper {
+    padding: 20px;
+}
+
+header p {
+    padding-right: 20px;
+    color: #fff;
+}
+
+
+img { 
+    max-width: 100%;
+    max-height: 300px;
+}
+
+
+
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+    padding: 5em;
+    background: #f7dada;
+}
+
+
+.galleryItem {
+    background: white;
+    border-radius: 10px;
+}
+
+.galleryItem img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+
+.imgDesc {
+    padding: 1.5em;
+}
+
+.imgTitle {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.gallery-upload {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-upload form {
+    background: #aaa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.btn {
+    background: none;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.btn-delete {
+    float: left;
+    margin-bottom: 10px;
+}
+
+#logoutBtn {
+    margin-top: 15px;
+    margin-right: 10px;
+    
+}
+
+
+
+/* image.php styles */
+div.displayImg {
+    background: white;
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+div.displayImg h1 {
+    
+    margin-bottom: 0;
+}
+
+div.displayImg img {
+    padding-top: 10px;
+}
+
